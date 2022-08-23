@@ -1,0 +1,15 @@
+ $colorPrincipal: #a83b0bce;
+ $colorSecundario: #cf9c85;
+ $hover:#cf9c85
+ 
+ $pallette: (
+    "primary":$primary;
+    "secondary":$secondary;
+   "hover":$hover;
+   brown:$a83b0bce;
+   orange:$cf9c85;
+   turquoise: $rgb(100, 200, 255); 
+);
+
+@debug map-get($colors, "orange" );
+@debug map-has-key($colors,"secondary");
